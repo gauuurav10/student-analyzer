@@ -28,8 +28,9 @@ class Student:
 
 student1 = Student("Rahul", 22, [85, 90, 80])
 student2 = Student("Priya", 23, [95, 92, 88])
+student3 = Student("Amit", 21, [65, 70, 68])
 
-for student in [student1, student2]:
+for student in [student1, student2, student3]:
     print(
         f"{student.name} - "
         f"Average: {student.average():.2f} - "
